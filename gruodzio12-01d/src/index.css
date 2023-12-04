@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: 270px 50px;
+  width: 0px;
+  height: 80px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+
+.div {
+  position: relative;
+}
+
+.parag {
+  position: absolute;
+  left: 380px;
+  top: 6px;
+}
+
+.result {
+  position: absolute;
+  left: 350px;
+  top: 107px;
+}
+
+.formula {
+  color: red;
+  font-weight: bold;
+}
+
+.formula-text {
+  color: red;
+  font-weight: bold;
+}
