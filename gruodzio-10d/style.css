@@ -1,0 +1,111 @@
+body {
+  margin-top: 100px;
+  background-color: black;
+}
+
+.btn {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+.light-btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(128, 116, 116);
+}
+
+.light-btn1 {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(128, 116, 116);
+}
+
+.main {
+  position: relative;
+  text-align: center;
+}
+.topic {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+.btn-on {
+  margin-top: 80px;
+  height: 20px;
+  width: 150px;
+}
+.btn-off {
+  margin-top: 80px;
+  height: 20px;
+  width: 150px;
+}
+.topic {
+  font-size: 50px;
+}
+/* When light are on */
+
+.light-btn-on {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: yellow;
+  box-shadow: 0px 0px 10px 18px rgba(73, 199, 238, 0.5);
+}
+
+.light-btn-on1 {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(5, 201, 38);
+  box-shadow: 0px 0px 10px 18px rgba(234, 238, 12, 0.5);
+}
+
+@media screen and (max-width: 900px) {
+  .light-btn {
+    width: 30px;
+    height: 30px;
+  }
+  .light-btn1 {
+    width: 40px;
+    height: 40px;
+  }
+  .topic {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .light-btn {
+    width: 25px;
+    height: 25px;
+  }
+  .light-btn1 {
+    width: 25px;
+    height: 25px;
+  }
+  .topic {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .light-btn {
+    width: 15px;
+    height: 15px;
+  }
+  .light-btn1 {
+    width: 15px;
+    height: 15px;
+  }
+  .topic {
+    font-size: 10px;
+  }
+}
