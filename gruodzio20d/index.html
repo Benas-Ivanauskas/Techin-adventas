@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2>Welcome to Quiz game</h2>
+        <div class="box">
+            <h2 class="questions" id="question">Question</h2>
+            <p class="answerIfCorrect"></p>
+            <div class="grid">
+                <p id="correct" class="correctAnswer" onclick="findingCorrectAnswer(true)">Correct </p>
+                <p id="incorrect" class="incorrectAnswer" onclick="findingCorrectAnswer(false)">Incorrect </p>
+            </div>
+            <button class="btn" id="nextBtn">Next Question!</button>
+            <p id="score"></p> 
+        
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
