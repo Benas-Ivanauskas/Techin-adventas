@@ -24,7 +24,6 @@ const incorrectAnswer = document.getElementById("incorrect")
 const nextBtn = document.getElementById("nextBtn");
 
 
-
 function showQuestion () {
     let currentQuestion = displayingQuestion;
     questionText.innerText = currentQuestion.text
